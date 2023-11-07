@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <body>
+    <style>
+      @font-face {
+        font-family: 'font01';
+        src: url('./fonts/font01.woff') format("woff"),
+      } 
+      @font-face {
+        font-family: 'font02';
+        src: url('./fonts/font02.woff') format("woff"),
+      } 
+      body{
+        background-color: #052F6D;
+      }
+      .body_box{
+        width: 150px;
+        height:100%;
+      }
+      #clickButton{
+        width: 100%;
+        background-color: #052F6D;
+        color: #A6CAFF;
+        border:1px #A6CAFF solid;
+        text-align: center;
+        font-family: 'font01';
+      }
+      #clickButton:hover{
+        width: 100%;
+        background-color: #A6CAFF;
+        color: #052F6D;
+        border:1px #A6CAFF solid;
+        text-align: center;
+        font-family: 'font02';
+      }
+    </style>
+    <div class="body_box">
+      <img src="./images/Animate.gif" alt="" style="width: 100%;">
+      <div style="padding: 5px;">
+        <button id="clickButton">啟用</button>
+        <script src="popup.js"></script>
+      </div>
+    </div>
+
+  </body>
+</html>
